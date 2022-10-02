@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/metrics-api-1.0.0.0-SNAPSHOT
+web: java -Dserver.port=$PORT -jar target/metrics-api-1.0.0.0-SNAPSHOT.jar
