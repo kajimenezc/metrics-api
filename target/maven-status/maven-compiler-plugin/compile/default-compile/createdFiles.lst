@@ -1,5 +1,6 @@
 com\compensar\MetricsApiApplication.class
 com\compensar\security\WebSecurityConfig.class
+com\compensar\security\dto\UserValidate.class
 com\compensar\users\controller\UsersController.class
 com\compensar\security\CorsConfig.class
 com\compensar\security\dto\AuthenticationReq.class
