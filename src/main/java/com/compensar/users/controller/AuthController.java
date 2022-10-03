@@ -27,7 +27,7 @@ import com.compensar.security.service.JwtUtilService;
 @RequestMapping("")
 public class AuthController {
 
-	@Autowired(required = true)
+	@Autowired
 	private AuthenticationManager authenticationManager;
 
 	@Autowired
@@ -38,30 +38,30 @@ public class AuthController {
 
 	private static final Logger logger = LoggerFactory.getLogger(AuthController.class);
 
-	  @GetMapping("/admin")
-	  public ResponseEntity<?> getMensajeAdmin() {
+	@GetMapping("/admin")
+	public ResponseEntity<?> getMensajeAdmin() {
 
-	    Authentication auth =  SecurityContextHolder.getContext().getAuthentication();
-	    logger.info("Datos del Usuario: {}", auth.getPrincipal());
-	    logger.info("Datos de los Permisos {}", auth.getAuthorities());
-	    logger.info("Esta autenticado {}", auth.isAuthenticated());
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		logger.info("Datos del Usuario: {}", auth.getPrincipal());
+		logger.info("Datos de los Permisos {}", auth.getAuthorities());
+		logger.info("Esta autenticado {}", auth.isAuthenticated());
 
-	    Map<String, String> mensaje = new HashMap<>();
-	    mensaje.put("contenido", "Hola Admin");
-	    return ResponseEntity.ok(mensaje);
-	  }
+		Map<String, String> mensaje = new HashMap<>();
+		mensaje.put("contenido", "Hola Admin");
+		return ResponseEntity.ok(mensaje);
+	}
 
-	  @GetMapping("/publico")
-	  public ResponseEntity<?> getMensajePublico() {
-	    Authentication auth =  SecurityContextHolder.getContext().getAuthentication();
-	    logger.info("Datos del Usuario: {}", auth.getPrincipal());
-	    logger.info("Datos de los Permisos {}", auth.getAuthorities());
-	    logger.info("Esta autenticado {}", auth.isAuthenticated());
+	@GetMapping("/publico")
+	public ResponseEntity<?> getMensajePublico() {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		logger.info("Datos del Usuario: {}", auth.getPrincipal());
+		logger.info("Datos de los Permisos {}", auth.getAuthorities());
+		logger.info("Esta autenticado {}", auth.isAuthenticated());
 
-	    Map<String, String> mensaje = new HashMap<>();
-	    mensaje.put("contenido", "Hola Public");
-	    return ResponseEntity.ok(mensaje);
-	  }
+		Map<String, String> mensaje = new HashMap<>();
+		mensaje.put("contenido", "Hola Public");
+		return ResponseEntity.ok(mensaje);
+	}
 
 	@PostMapping("/publico/auth")
 	public ResponseEntity<TokenInfo> authenticate(@RequestBody AuthenticationReq authenticationReq) {

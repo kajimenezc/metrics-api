@@ -3,16 +3,8 @@ package com.compensar.security.dto;
 public class UserValidate {
 
 	String username;
-
+	String password;
 	String rol;
-
-	public String getRol() {
-		return rol;
-	}
-
-	public void setRol(String rol) {
-		this.rol = rol;
-	}
 
 	public String getUsername() {
 		return username;
@@ -22,9 +14,26 @@ public class UserValidate {
 		this.username = username;
 	}
 
-	public UserValidate(String username, String rol) {
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getRol() {
+		return rol;
+	}
+
+	public void setRol(String rol) {
+		this.rol = rol;
+	}
+
+	public UserValidate(String username, String password, String rol) {
 		super();
 		this.username = username;
+		this.password = password;
 		this.rol = rol;
 	}
 

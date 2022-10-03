@@ -19,7 +19,7 @@ public class AuthenticationReq implements Serializable {
 		return usuario;
 	}
 
-	public void setUsuario(String username) {
+	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
 
@@ -30,4 +30,10 @@ public class AuthenticationReq implements Serializable {
 	public void setClave(String clave) {
 		this.clave = clave;
 	}
+
+	@Override
+	public String toString() {
+		return "AuthenticationReq [usuario=" + usuario + ", clave=" + clave + "]";
+	}
+
 }
