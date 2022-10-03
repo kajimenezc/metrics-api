@@ -1,2 +1,10 @@
 com\compensar\MetricsApiApplication.class
+com\compensar\security\WebSecurityConfig.class
 com\compensar\users\controller\UsersController.class
+com\compensar\security\CorsConfig.class
+com\compensar\security\dto\AuthenticationReq.class
+com\compensar\security\filter\JwtRequestFilter.class
+com\compensar\security\service\JwtUtilService.class
+com\compensar\security\service\UsuarioDetailService.class
+com\compensar\users\controller\AuthController.class
+com\compensar\security\dto\TokenInfo.class

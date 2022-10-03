@@ -1,2 +1,10 @@
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\controller\AuthController.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\MetricsApiApplication.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\CorsConfig.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\service\JwtUtilService.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\dto\TokenInfo.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\service\UsuarioDetailService.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\WebSecurityConfig.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\dto\AuthenticationReq.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\filter\JwtRequestFilter.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\controller\UsersController.java
