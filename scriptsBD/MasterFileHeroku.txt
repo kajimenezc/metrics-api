@@ -1,0 +1,7 @@
+Conexion Heroku
+Host									ec2-50-19-255-190.compute-1.amazonaws.com
+Database								d424auhmp4uueu
+User									vpurkxaqgzrebl
+Port									5432
+Password								c47a0e3e0f043de76d1465056038894542a5e0964a4a3c66c4f782ff4dafb291
+URI										postgres://vpurkxaqgzrebl:c47a0e3e0f043de76d1465056038894542a5e0964a4a3c66c4f782ff4dafb291@ec2-50-19-255-190.compute-1.amazonaws.com:5432/d424auhmp4uueu
