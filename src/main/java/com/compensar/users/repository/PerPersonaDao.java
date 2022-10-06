@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.compensar.users.model.PerPersona;
 
 @Repository
-public interface PerPersonaDao extends JpaRepository<Long, PerPersona>{
+public interface PerPersonaDao extends JpaRepository<PerPersona, Long>{
 
 }

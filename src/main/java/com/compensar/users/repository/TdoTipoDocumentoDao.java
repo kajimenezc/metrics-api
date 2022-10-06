@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.compensar.users.model.TdoTipoDocumento;
 
-public interface TdoTipoDocumentoDao extends JpaRepository<Long, TdoTipoDocumento>{
+public interface TdoTipoDocumentoDao extends JpaRepository<TdoTipoDocumento, Long>{
 
 }
