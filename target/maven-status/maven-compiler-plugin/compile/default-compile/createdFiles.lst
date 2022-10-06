@@ -2,8 +2,10 @@ com\compensar\users\dto\TdoTipoDocumentoDto.class
 com\compensar\security\dto\UserValidate.class
 com\compensar\users\model\TdoTipoDocumento.class
 com\compensar\users\service\impl\PerPersonaServiceImpl.class
+com\compensar\util\GeneralResponse.class
 com\compensar\security\service\JwtUtilService.class
 com\compensar\users\service\TdoTipoDocumentoService.class
+com\compensar\util\ConstantMessage.class
 com\compensar\users\dto\TpeTipoPersonaDto.class
 com\compensar\users\service\PerPersonaService.class
 com\compensar\security\CorsConfig.class

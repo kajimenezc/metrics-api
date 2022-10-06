@@ -39,10 +39,25 @@ public class PerPersonaController {
 	@RequestMapping(method = RequestMethod.POST, value = "/create")
 	public ResponseEntity<GeneralResponse> createPerson(@RequestBody PerPersonaDto person) {
 
-		GeneralResponse response = personaService.createPerson(person);
+		GeneralResponse response = personaService.createUpdatePerson(person, true);
 
 		return new ResponseEntity<GeneralResponse>(response, response.getStatus());
 	}
-	
+
+	@RequestMapping(method = RequestMethod.PUT, value = "/update")
+	public ResponseEntity<GeneralResponse> updatePerson(@RequestBody PerPersonaDto person) {
+
+		GeneralResponse response = personaService.createUpdatePerson(person, false);
+
+		return new ResponseEntity<GeneralResponse>(response, response.getStatus());
+	}
+
+	@RequestMapping(method = RequestMethod.DELETE, value = "/delete")
+	public ResponseEntity<GeneralResponse> updatePerson(@RequestParam Integer personId) {
+
+		GeneralResponse response = personaService.deletePerson(personId);
+
+		return new ResponseEntity<GeneralResponse>(response, response.getStatus());
+	}
 
 }

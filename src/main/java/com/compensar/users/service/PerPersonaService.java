@@ -8,13 +8,11 @@ import com.compensar.util.GeneralResponse;
 public interface PerPersonaService {
 
 	List<PerPersonaDto> getAllPersons();
-	
+
 	PerPersonaDto getPersonById(Integer personId);
-	
-	GeneralResponse createPerson(PerPersonaDto persona);
-	
-	GeneralResponse updatePerson(PerPersonaDto persona);
-	
+
+	GeneralResponse createUpdatePerson(PerPersonaDto persona, Boolean isCreate);
+
 	GeneralResponse deletePerson(Integer personId);
-	
+
 }

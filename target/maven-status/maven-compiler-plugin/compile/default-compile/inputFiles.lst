@@ -20,6 +20,7 @@ D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\controller\TdeTipoPersonaController.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\service\impl\PerPersonaServiceImpl.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\security\filter\JwtRequestFilter.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\util\GeneralResponse.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\service\impl\TpeTipoPersonaServiceImpl.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\dto\TpeTipoPersonaDto.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\service\impl\TdoTipoDocumentoServiceImpl.java
@@ -27,4 +28,5 @@ D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\controller\TdoTipoDocumentoController.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\service\TdoTipoDocumentoService.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\dto\TdoTipoDocumentoDto.java
+D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\util\ConstantMessage.java
 D:\Users\Kevin\Documents\PERSONAL\U-COMPENSAR\PROYECTOGRADO\BACK\metrics-api\src\main\java\com\compensar\users\service\PerPersonaService.java

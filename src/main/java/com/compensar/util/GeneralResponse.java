@@ -1,10 +1,12 @@
 package com.compensar.util;
 
+import java.util.Date;
+
 import org.springframework.http.HttpStatus;
 
 public class GeneralResponse {
 
-	private String date;
+	private Date date;
 
 	private HttpStatus status;
 
@@ -12,11 +14,11 @@ public class GeneralResponse {
 
 	private String Content;
 
-	public String getDate() {
+	public Date getDate() {
 		return date;
 	}
 
-	public void setDate(String date) {
+	public void setDate(Date date) {
 		this.date = date;
 	}
 
@@ -44,9 +46,10 @@ public class GeneralResponse {
 		this.status = status;
 	}
 
-	public GeneralResponse(String date, String message, String content) {
+	public GeneralResponse(Date date, HttpStatus status, String message, String content) {
 		super();
 		this.date = date;
+		this.status = status;
 		Message = message;
 		Content = content;
 	}
