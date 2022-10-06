@@ -16,7 +16,7 @@ import com.compensar.users.service.PerPersonaService;
 import com.compensar.util.GeneralResponse;
 
 @RestController
-@RequestMapping("person")
+@RequestMapping("admin/person")
 public class PerPersonaController {
 
 	@Autowired

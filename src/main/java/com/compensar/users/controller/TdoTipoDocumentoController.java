@@ -11,7 +11,7 @@ import com.compensar.users.dto.TdoTipoDocumentoDto;
 import com.compensar.users.service.TdoTipoDocumentoService;
 
 @RestController
-@RequestMapping("typedocument")
+@RequestMapping("admin/typedocument")
 public class TdoTipoDocumentoController {
 
 	@Autowired
