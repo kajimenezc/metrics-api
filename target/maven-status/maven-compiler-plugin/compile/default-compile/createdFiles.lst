@@ -13,9 +13,11 @@ com\compensar\users\repository\PerPersonaDao.class
 com\compensar\security\EncoderConfig.class
 com\compensar\security\WebSecurityConfig.class
 com\compensar\security\filter\JwtRequestFilter.class
+com\compensar\security\dto\Test.class
 com\compensar\users\controller\AuthController.class
 com\compensar\users\service\TdeTipoPersonaService.class
 com\compensar\users\controller\TdoTipoDocumentoController.class
+com\compensar\users\service\impl\ExcelServiceImpl.class
 com\compensar\users\model\TpeTipoPersona.class
 com\compensar\MetricsApiApplication.class
 com\compensar\users\controller\PerPersonaController.class
@@ -23,9 +25,11 @@ com\compensar\users\dto\PerPersonaDto.class
 com\compensar\users\service\impl\TpeTipoPersonaServiceImpl.class
 com\compensar\users\controller\UsersController.class
 com\compensar\security\dto\AuthenticationReq.class
+com\compensar\security\dto\ConsolidadoData.class
 com\compensar\users\repository\TdoTipoDocumentoDao.class
 com\compensar\users\service\impl\TdoTipoDocumentoServiceImpl.class
 com\compensar\security\service\UsuarioDetailService.class
+com\compensar\users\service\ExcelService.class
 com\compensar\security\dto\TokenInfo.class
 com\compensar\users\controller\TdeTipoPersonaController.class
 com\compensar\users\model\PerPersona.class

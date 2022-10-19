@@ -10,4 +10,6 @@ public interface ExcelService {
 
 	List<ConsolidadoData> extractDataExcel(MultipartFile file);
 	
+	String infoReturn();
+	
 }
